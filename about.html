@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Kushal Sathe</title>
+  <!-- Link to the Bootstrap CSS file -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <!-- Link to your custom CSS file -->
+  <link rel="stylesheet" href="static\css\about.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Kushal Sathe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">About Me</h2>
+      <hr>
+
+      <div class="about-text">
+        <section id="education" class="py-5 bg-light white">
+          <h3>Education</h3>
+          <div class="row">
+            <div class="col-md-6">
+
+              <ul>
+                <li>Final Year Student <br> Bachelor of Engineering in AI & DS - Ajeenkya DY Patil School of
+                  Engineering,
+                  2020-2024</li>
+                <div class="progress mt-3">
+                  <div class="progress-bar1" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+                    aria-valuemax="10" id="cgpa-meter"></div>
+                </div>
+                <p id="cgpa-meter-text">CGPA: 0.0/10</p>
+              </ul>
+              <ul>
+                <li>12th <br> Pragati Public Sr. Sec School,Kota <br>2019</li>
+                <div class="progress mt-3">
+                  <!-- Check if the ID is set to "percent12-meter" -->
+                  <div class="progress-bar2" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+                    aria-valuemax="100" id="percent12-meter"></div>
+                </div>
+                <!-- Check if the ID is set to "percent12-meter-text" -->
+                <p id="percent12-meter-text">Percentage: 0/100</p>
+              </ul>
+              <ul>
+                <li>10th <br> ST. ANN's School, Kaitha, Ramgarh <br> 2017 </li>
+                <div class="progress mt-3">
+                  <!-- Check if the ID is set to "percent10-meter" -->
+                  <div class="progress-bar3" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+                    aria-valuemax="100" id="percent10-meter"></div>
+                </div>
+                <!-- Check if the ID is set to "percent10-meter-text" -->
+                <p id="percent10-meter-text">Percentage: 0/100</p>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <br><br>
+              <!-- Add more information or images related to your education or projects -->
+              <!-- For example, you can add images or descriptions of your projects here -->
+              <img src="templates\images\about\Types-of-Education.jpg" alt="Project Image" class="img-fluid">
+            </div>
+
+
+          </div>
+        </section>
+        <section id="projects" class="py-5 bg-light white" >
+          <h3>Projects</h3>
+          <div id="project-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="templates\images\about\transliteration.jpg" alt="Project Image 1" class="img-fluid">
+                <div class="carousel-caption">
+                  <strong>Transliteration model for English to Hindi Conversion</strong> - 03 Jan - 05 May, 2023
+                  <br>Mentor: Nidhi Agarwal | Team Size: 8
+                  <br>Key Skills: Deep Learning, Machine Learning, Leadership, Team Management
+                  <br>1. Developed a Seq-to-Seq neural network with attention-based encoder-decoder architecture for transliteration as the Group Lead.
+                  <br>2. Successfully achieved efficient and accurate conversion of English text to the Devanagari script while preserving the original pronunciation.
+                  <br>3. Facilitated seamless transliteration for Hindi and other Indian languages, significantly enhancing cross-lingual communication with this technology.
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="templates\images\about\digit.png" alt="Project Image 2" class="img-fluid">
+                <div class="carousel-caption">
+                  <strong>Digit_recognizer_with_UI</strong> <br>Key Skills: Machine Learning, Deep Learning, CNN, Python, Numpy, Pandas, Tkinter
+                  <br>Project Link: <a href="https://github.com/Kushalsathe123/Digit_recogniser_with_UI">Digit_recognizer_with_UI</a> 
+                  <br>1. Implemented a CNN model in Python using TensorFlow and Keras for recognizing handwritten digits from the MNIST dataset.
+                  <br>2. Achieved an impressive accuracy of 98.36% on the test set after just two epochs of training.
+                  <br>3. Developed a user-friendly graphical interface with Tkinter to allow real-time digit drawing and predictions, showcasing practical application and
+                  proficiency in deep learning concepts.
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="templates\images\about\igurus.jpg" alt="Project Image 3" class="img-fluid">
+                <div class="carousel-caption">
+                  <strong>IGurus Website</strong> <br>Key Skills: Front-End Web Development HTML5 CSS Javascript Bootstrap
+                  <br>Project Link: <a href="http://igurus.in/">IGurus Website</a>
+                  <br>1. Created a fully functional website at iGurus as a front-end web developer using HTML, CSS, and JavaScript.
+                  <br>2. Implemented a user-friendly interface, responsive design, and dynamic elements to enhance interactivity on the website.
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="templates\images\about\lane-detection-main.jpg" alt="Project Image 4" class="img-fluid">
+                <div class="carousel-caption">
+                  <strong>Lane Detection Using OpenCV and Python</strong> <br>Key Skills: OpenCV, Python, Numpy, Pandas
+                  <br>Project Link: <a href="">Lane Detection Using OpenCV and Python</a>
+                  <br>1. Successfully developed a lane detection model using OpenCV in my second year project.
+                  <br>2. Employed Canny edge detection and Hough line transform techniques for accurate lane identification from video streams.
+                  <br>3. Implemented real-time lane detection by calculating average slopes to differentiate between left, right, and straight lanes.
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#project-carousel" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#project-carousel" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+        </section>
+        
+
+        <section id="seminar" class="py-5 bg-light white">
+          <h3>Seminars and Workshops</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li>
+                  <strong>[Seminar/Workshop Title]</strong> - [Event Date/Duration]
+                </li>
+                <!-- Add more seminar/workshop details if needed -->
+              </ul>
+            </div>
+            <div class="col-md-6">
+
+              <!-- Add more information or images related to your education or projects -->
+              <!-- For example, you can add images or descriptions of your projects here -->
+              <img src="templates\images\about\istockphoto-1184658011-612x612.jpg" alt="Project Image"
+                class="img-fluid">
+            </div>
+
+
+          </div>
+        </section>
+
+
+        <section id="internship" class="py-5 bg-light white">
+          <h3>Internships</h3>
+
+          <div class="row">
+            <div class="col-md-6">
+
+              <!-- Add more information or images related to your education or projects -->
+              <!-- For example, you can add images or descriptions of your projects here -->
+              <img src="templates\images\about\1646993405-blog.jpg" alt="Project Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li>
+                  <strong>[Internship Title]</strong> - [Company/Organization Name], [Duration]
+                </li>
+                <!-- Add more internship details if needed -->
+              </ul>
+            </div>
+            <!-- Add more sections as needed for other information like achievements, certifications, etc. -->
+          </div>
+        </section>
+      </div>
+  </section>
+
+  <!-- Add your footer here if needed -->
+
+  <!-- Add Bootstrap 5 JS and custom JavaScript here if needed -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="static\javascript\about.js"></script>
+</body>
+
+</html>
